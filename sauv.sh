@@ -11,11 +11,11 @@ tar -cvzf backup.tar.gz ~/Bureau/Simplon
 echo "--------------------------------------------";
 echo "";
 
-echo "vérification de l'existence de l'archive";
+echo "vérif de l'archive";
 if [ -e backup.tar.gz ]
 then
 echo ""
-echo "archive créée avec succés";
+echo "archive crée avec succés";
 echo ""
 else
 echo ""
